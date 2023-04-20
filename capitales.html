@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header id="juego1"> 
+    <h1>Juego de preguntas</h1>
+    <h2>Capitales de Latinoamérica</h2>
+    <br>
+
+</header>
+
+<body>
+    <form id="preguntas"> 
+        <section>
+        <strong for="pregunta1">1. ¿Cuál es la capital de Brasil? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c1" onclick="correcto()" class="correcta">a. Brasilia
+        <label> 
+        <br>  <input type="radio" value="b" name="c1" onclick="incorrecto()"  >b. Río de Janeiro
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c1" onclick="incorrecto()" >c. Fortaleza
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">2. ¿Cuál es la capital de Chile"? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1200px-Flag_of_Chile.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c2" onclick="incorrecto()" >a. Punta arenas
+        <label> 
+        <br>  <input type="radio" value="b" name="c2" onclick="incorrecto()" >b. Viña del Mar
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c2" onclick="correcto()" class="correcta">c. Santiago de Chile
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">3. ¿Cuál es la capital de México? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcIMly4IutJ3vFiI4xvcZvI5TQvUEt3Fozpz2cVKhAv6KijWlKmbJ-j8G_waBGXrkKKSU&usqp=CAU" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c3" onclick="incorrecto()" >a. Guadalajara
+        <label> 
+        <br>  <input type="radio" value="b" name="c3" onclick="correcto()" class="correcta">b. Ciudad de México
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c3" onclick="incorrecto()" >c. Cancún
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">4. ¿Cuál es la capital de Bolivia? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Bolivia_%28state%29.svg/640px-Flag_of_Bolivia_%28state%29.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c4" onclick="correcto()" class="correcta">a. La Paz
+        <label> 
+        <br>  <input type="radio" value="b" name="c4" onclick="incorrecto()" >b. Cochapamba
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c4" onclick="incorrecto()" >c. Sucre
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">5. ¿Cuál es la capital de Surinam? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/640px-Flag_of_Suriname.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c5" onclick="incorrecto()" >a. Totness
+        <label> 
+        <br>  <input type="radio" value="b" name="c5" onclick="incorrecto()" >b. Albina
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c5" onclick="correcto()" class="correcta">c. Paramaribo
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">6. ¿Cuál es la capital de Uruguay? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1200px-Flag_of_Uruguay.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c6" onclick="incorrecto()" >a. Artigas
+        <label> 
+        <br>  <input type="radio" value="b" name="c6" onclick="correcto()" class="correcta" >b. Montevideo
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c6" onclick="incorrecto()" >c. Florida
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">7. ¿Cuál es la capital de Venezuela? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_Venezuela_%28state%29.svg/1200px-Flag_of_Venezuela_%28state%29.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c7" onclick="correcto()"class="correcta">a. Caracas
+        <label> 
+        <br>  <input type="radio" value="b" name="c7" onclick="incorrecto()" >b. Maracaibo
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c7" onclick="incorrecto()">c. Ciudad Bolívar
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">8. ¿Cuál es la capital de Guayana Francesa? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Bandera_independentista_Guyana.svg/1200px-Bandera_independentista_Guyana.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c8" onclick="incorrecto()">a. Mana
+        <label> 
+        <br>  <input type="radio" value="b" name="c8" onclick="incorrecto()" >b. Régina
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c8" onclick="correcto()" class="correcta"> c. Cayena
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">9. ¿Cuál es la capital de Argentina? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c9" onclick="incorrecto()" >a. Mana
+        <label> 
+        <br>  <input type="radio" value="b" name="c9" onclick="incorrecto()" >b. Régina
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c9" onclick="correcto()" class="correcta">c. Cayena
+        </label>
+    </section>
+
+    <section>
+        <strong for="pregunta1">10. ¿Cuál es la capital de Guyana? </strong> <br>
+       <br> <center><img class="circle" alt="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/1200px-Flag_of_Guyana.svg.png" width="350" height="250"></center>
+        <br> <label> 
+          <br><br> <input type="radio" value="a" name="c10" onclick="correcto()" class="correcta">a. Georgetown
+        <label> 
+        <br>  <input type="radio" value="b" name="c10" onclick="incorrecto()"  >b. Ituni
+        </label>
+        <label> 
+        <br>  <input type="radio" value="c" name="c10" onclick="incorrecto()" >c. Bartica
+        </label>
+    </section>
+    
+  </form>
+    
+  <div> 
+    <br> <br> <br> <center><a href="bienvenida.html" class="btn-neon1">
+       <span id="span1"></span>
+       <span id="span2"></span>
+       <span id="span3"></span>
+       <span id="span4"></span>
+       VOLVER A JUGAR 
+     </a></center>
+
+   </div>
+
+   <div> 
+    <br> <br> <br> <center><a href="index.html" class="btn-neon1">
+       <span id="span1"></span>
+       <span id="span2"></span>
+       <span id="span3"></span>
+       <span id="span4"></span>
+       TRATAR CON LUGARES EN ECUADOR Y PERÚ
+     </a></center>
+
+   </div>
+
+    <script src="trivia.js"></script>
+</body>
+</html>
